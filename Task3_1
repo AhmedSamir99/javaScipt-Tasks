@@ -1,1 +1,65 @@
-Object predefined methods
+Object predefined methods:
+
+1) Object.assign()
+Copies the values of all enumerable own properties from one or more source objects to a target object.
+
+2) Object.create()
+Creates a new object with the specified prototype object and properties.
+
+3) Object.defineProperty()
+Adds the named property described by a given descriptor to an object.
+
+4) Object.defineProperties()
+Adds the named properties described by the given descriptors to an object.
+
+5) Object.entries()
+Returns an array containing all of the [key, value] pairs of a given object's own enumerable string properties.
+
+6) Object.freeze()
+Freezes an object. Other code cannot delete or change its properties.
+
+7) Object.fromEntries()
+Returns a new object from an iterable of [key, value] pairs. (This is the reverse of Object.entries).
+
+8) Object.getOwnPropertyDescriptor()
+Returns a property descriptor for a named property on an object.
+
+9) Object.is()
+Compares if two values are the same value. Equates all NaN values (which differs from both IsLooselyEqual used by == and IsStrictlyEqual used by ===).
+
+10) Object.isFrozen()
+Determines if an object was frozen.
+
+
+Array predefined methods:
+
+1) The valueOf() 
+method returns the array itself.
+
+2) The reverse() 
+method reverses the order of the elements in an array.
+
+3) The reduceRight() 
+method executes a reducer function for each array element and works from right to left
+
+4) The keys() 
+method returns an Array Iterator object with the keys of an array.
+
+5) The fill() 
+method fills specified elements in an array with a value.
+
+6) The copyWithin() 
+method copies array elements to another position in the array.
+
+7) The every() 
+method executes a function for each array element.
+
+8) The entries() 
+method returns an Array Iterator object with key/value pairs:
+
+9) toLocaleString()
+Returns string representing the elements of array
+
+10) splice()
+ method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place. To access part of an array without modifying it, see slice().
+
